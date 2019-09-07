@@ -15,7 +15,7 @@
 1. Add `datocms` dependency to your project
 
 ```bash
-yarn add datocms # or npm install datocms
+npm i @mmintel/nuxt-datocms
 ```
 
 2. Add `datocms` to the `modules` section of `nuxt.config.js`
@@ -24,11 +24,15 @@ yarn add datocms # or npm install datocms
 {
   modules: [
     // Simple usage
-    'datocms',
+    '@mmintel/nuxt-datocms',
 
     // With options
-    ['datocms', { /* module options */ }]
-  ]
+    ['@mmintel/nuxt-datocms', { /* module options */ }]
+  ],
+  // or place options here
+  datocms: {
+    // module options
+  }
 }
 ```
 
