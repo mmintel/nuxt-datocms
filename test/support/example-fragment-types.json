@@ -1,0 +1,1 @@
+{"__schema":{"types":[{"kind":"UNION","name":"DocumentModelContentField","possibleTypes":[{"name":"TextRecord"},{"name":"TeaserRecord"},{"name":"IconGridRecord"},{"name":"GalleryRecord"},{"name":"FigureRecord"},{"name":"DownloadRecord"},{"name":"EmbedRecord"},{"name":"StageRecord"},{"name":"CodeRecord"}]}]}}

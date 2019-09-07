@@ -13,12 +13,12 @@ let nuxt, port
 const url = path => `http://localhost:${port}${path}`
 const get = path => request(url(path))
 
-// describe('without apiKey', () => {
-//   it('should throw an error without apiKey', async () => {
-//     nuxt = new Nuxt(config)
-//     expect(nuxt.ready).toThrow()
-//   })
-// })
+describe('without apiKey', () => {
+  it('should throw an error without apiKey', async () => {
+    nuxt = new Nuxt(config)
+    expect(nuxt.ready).toThrow()
+  })
+})
 
 describe('with correct settings', () => {
   beforeAll(async () => {
