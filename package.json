@@ -1,5 +1,5 @@
 {
-  "name": "datocms",
+  "name": "@mmintel/datocms",
   "version": "0.0.0",
   "description": "Connects DatoCMS with Nuxt",
   "license": "MIT",
