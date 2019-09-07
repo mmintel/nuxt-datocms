@@ -1,0 +1,49 @@
+{
+  "name": "datocms",
+  "version": "0.0.0",
+  "description": "Connects DatoCMS with Nuxt",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Marc Mintel <marc@mintel.me>"
+    }
+  ],
+  "main": "lib/module.js",
+  "repository": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "nuxt example",
+    "lint": "eslint --ext .js,.vue example lib test",
+    "test": "yarn lint && jest",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.0-rc12",
+    "apollo-cache-inmemory": "^1.6.3",
+    "core-js": "^2.6.5",
+    "fse": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@nuxtjs/eslint-config": "latest",
+    "babel-eslint": "latest",
+    "babel-jest": "latest",
+    "codecov": "latest",
+    "eslint": "latest",
+    "get-port": "latest",
+    "husky": "latest",
+    "jest": "latest",
+    "nuxt-edge": "latest",
+    "request": "latest",
+    "request-promise-native": "latest",
+    "standard-version": "latest"
+  }
+}
