@@ -32,6 +32,10 @@ yarn add datocms # or npm install datocms
 }
 ```
 
+## Options
+`apiKey`: read-only API key for DatoCMS
+`httpEndpoint`: mainly for testing, but maybe DatoCMS will one day change it's API url, who knows..
+
 ## Development
 
 1. Clone this repository
