@@ -1,3 +1,5 @@
 describe('tests coming later...', () => {
-  expect(true).toBe(true)
+  it('one test is required', () => {
+    expect(true).toBe(true)
+  })
 })
