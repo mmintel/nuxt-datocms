@@ -1,6 +1,6 @@
 {
   "name": "@mmintel/nuxt-datocms",
-  "version": "0.0.4",
+  "version": "0.0.8",
   "description": "Connects DatoCMS with Nuxt",
   "license": "MIT",
   "contributors": [
@@ -17,7 +17,7 @@
     "dev": "nuxt example",
     "lint": "eslint --ext .js,.vue example lib test",
     "test": "yarn lint && jest",
-    "release": "yarn test && standard-version && git push --follow-tags && npm publish"
+    "release": "standard-version && git push --follow-tags && npm publish"
   },
   "files": [
     "lib"
