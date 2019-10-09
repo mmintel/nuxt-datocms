@@ -5,7 +5,7 @@ module.exports = {
     sourceType: 'module'
   },
   extends: [
-    '@nuxtjs'
+    '@nuxtjs',
   ],
   rules: {
     'require-await': 0
