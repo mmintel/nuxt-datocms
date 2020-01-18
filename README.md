@@ -1,5 +1,7 @@
 # datocms
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mmintel/nuxt-datocms.svg)](https://greenkeeper.io/)
+
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Circle CI][circle-ci-src]][circle-ci-href]
