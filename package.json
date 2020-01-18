@@ -25,7 +25,7 @@
   "dependencies": {
     "@nuxtjs/apollo": "^4.0.0-rc14",
     "apollo-cache-inmemory": "^1.6.3",
-    "core-js": "^2.6.5",
+    "core-js": "^3.6.4",
     "fse": "^4.0.1"
   },
   "devDependencies": {
